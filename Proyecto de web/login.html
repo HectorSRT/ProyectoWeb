@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fondo {
+            background-color: rgb(206, 146, 67);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(imagenes/fondo_final.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .contenedor {
+            position: relative;
+            height: 500px;
+            width: 350px;
+            background-color: rgb(207, 201, 178);
+            border-radius: 10%;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .circulo {
+            position: absolute;
+            top: -75px;
+            left: 100px;
+            height: 150px;
+            width: 150px;
+            background-color: rgb(207, 201, 178);
+            border-radius: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width: 80%;
+            gap: 15px;
+            padding-bottom: 150px;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin: 0;
+            padding: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .imagen {
+            height: 100%;
+            width: 100%;
+            background-image: url("imagenes/logo.png");
+            background-position: top;
+            background-size: cover;
+        }
+
+        p {
+            margin-top: -50px;
+        }
+
+        button {
+            background-color: rgb(126, 47, 18);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="contenedor">
+            <div class="circulo">
+                <div class="imagen"></div>
+            </div>
+            <h1>Bienvenido a Chefs Connected</h1>
+            <form method="get" action="">
+                <h1>Ingresa tu Usuario</h1>
+                <input type="text" placeholder="Usuario">
+                <h1>Ingresa tu Contraseña</h1>
+                <input type="password" placeholder="Contraseña">
+                <button type="submit">Login</button>
+            </form>
+            <p>¿No quieres iniciar sesión por ahora?
+                Haz clic <a href="">aquí</a></p>
+            <p>¿No tienes una cuenta?
+                Haz clic <a href="signin.html">aquí</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .fondo {
+            background-color: rgb(206, 146, 67);
+            min-height: 100vh;
+            /* Altura mínima de la pantalla */
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(imagenes/fondo_final.png);
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto;
+            /* Permite scroll en el contenedor .fondo */
+        }
+
+        .post {
+            background-color: rgb(207, 201, 178);
+            width: 800px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .user {
+            background-image: url(imagenes/user.png);
+            height: 100px;
+            width: 100px;
+            background-position: top;
+            background-size: cover;
+            margin-right: 20px;
+        }
+
+        .user_info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 15px;
+        }
+
+        .arriba {
+            display: flex;
+            width: 100%;
+        }
+
+        .estrellas {
+            background-image: url(imagenes/cinco_estrellas.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 75px;
+            width: 120px;
+            margin-top: -40px;
+        }
+
+        .pastel {
+            background-image: url(imagenes/pastel_chocolate.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 400px;
+            width: 90%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="post">
+            <div class="arriba">
+                <div class="user"></div>
+                <div class="user_info">
+                    <h1>chica_gamer123</h1>
+                    <div class="estrellas"></div>
+                </div>
+            </div>
+            <div class="pastel"></div>
+            <h1>Pastel de chocolate</h1>
+            <p>Sumérgete en un mundo de sabor con nuestro pastel de chocolate. Cada capa es una explosión de sabor, con
+                un equilibrio perfecto entre dulzura y amargor. La textura suave y húmeda te hará volver por más.</p>
+            <h3>Ingredientes</h3>
+            <ul>
+                <li>1 ½ tazas de harina</li>
+                <li>3/4 taza de cacao en polvo</li>
+                <li>1 ½ cucharaditas de polvo para hornear</li>
+                <li>1 cucharadita de bicarbonato de sodio</li>
+                <li>1 cucharadita de sal</li>
+                <li>1 taza de mantequilla sin sal, a temperatura ambiente</li>
+                <li>1 ½ tazas de azúcar</li>
+                <li>2 huevos grandes</li>
+                <li>1 taza de leche</li>
+                <li>1 cucharadita de extracto de vainilla</li>
+                <li>1 taza de agua hirviendo</li>
+            </ul>
+            <h3>Instrucciones</h3>
+            <ol>
+                <li>Precalienta el horno a 180°C (350°F). Engrasa y enharina un molde redondo de 23 cm.</li>
+                <li>Mezcla los ingredientes secos: En un bol grande, tamiza la harina, el cacao, el polvo para hornear,
+                    el bicarbonato y la sal. Reserva.</li>
+                <li>Crema la mantequilla y el azúcar: En otro bol, bate la mantequilla y el azúcar hasta obtener una
+                    mezcla cremosa y pálida.</li>
+                <li>Agrega los huevos: Incorpora los huevos uno a uno, batiendo bien después de cada adición.</li>
+                <li>Alterna húmedos y secos: Alterna la adición de la mezcla de harina y la leche, comenzando y
+                    terminando con la harina. Incorpora el extracto de vainilla.</li>
+                <li>Vierte el agua hirviendo: Vierte lentamente el agua hirviendo sobre la mezcla, batiendo
+                    constantemente. Esto creará un pastel más húmedo y con un sabor más intenso a chocolate.</li>
+                <li>Hornea: Vierte la masa en el molde preparado y hornea durante 30-35 minutos, o hasta que un palillo
+                    insertado en el centro salga limpio.</li>
+                <li>Enfría: Deja enfriar el pastel en el molde durante 10 minutos antes de desmoldarlo y dejarlo enfriar
+                    completamente sobre una rejilla.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .fondo {
+            background-image: url(imagenes/fondo_final.png);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .buscador {
+            background-color: rgb(207, 201, 178);
+            width: 90%;
+            height: 100px;
+            border-radius: 20px;
+            display: flex;
+            padding-left: 10px;
+            padding-top: 10px;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            height: 100px;
+            width: 100px;
+            background-image: url("imagenes/logo.png");
+            background-position: top;
+            background-size: cover;
+        }
+
+        .usuario {
+            height: 90px;
+            width: 90px;
+            background-image: url("imagenes/user.png");
+            background-position: top;
+            background-size: cover;
+        }
+
+        .usuario_chico {
+            height: 30px;
+            width: 30px;
+            background-image: url(imagenes/user.png);
+            background-position: top;
+            background-size: cover;
+            margin: 10px;
+        }
+
+        .lupa {
+            height: 90px;
+            width: 90px;
+            background-image: url("imagenes/lupa.png");
+            background-position: top;
+            background-size: cover;
+            margin-right: 10px;
+        }
+
+        .izquierda {
+            display: flex;
+            align-items: center;
+        }
+
+        .posts {
+            background-color: rgb(207, 201, 178);
+            width: 90%;
+            max-height: 800vh;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+
+        .info-usuario {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .pastel_container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -40px;
+        }
+
+        .pastel {
+            background-image: url(imagenes/pastel_chocolate.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .platillos {
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+        }
+
+        .cinco_estrellas {
+            background-image: url(imagenes/cinco_estrellas.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 75px;
+            width: 120px;
+        }
+
+        .lasana {
+            background-image: url(imagenes/lasana.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        .arroz {
+            background-image: url(imagenes/arroz_con_leche.jpg);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 300px;
+            width: 90%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="buscador">
+            <div class="izquierda">
+                <div class="logo"></div>
+                <div class="usuario"></div>
+            </div>
+            <div class="lupa"></div>
+        </div>
+        <div class="posts">
+            <div class="info-usuario">
+                <div class="usuario_chico"></div>
+                <p>chica_gamer123</p>
+            </div>
+            <div class="pastel_container">
+                <div class="pastel"></div>
+            </div>
+            <div class="platillos">
+                <h1>Pastel de chocolate</h1>
+                <div class="cinco_estrellas"></div>
+            </div>
+            <p> Sumérgete en un mundo de sabor con nuestro pastel de chocolate. Cada capa es una explosión de sabor, con
+                un equilibrio perfecto entre dulzura y amargor. La textura suave y húmeda te hará volver por más.</p>
+            <div class="info-usuario">
+                <div class="usuario_chico"></div>
+                <p>pedro_pantera</p>
+            </div>
+            <div class="pastel_container">
+                <div class="lasana"></div>
+            </div>
+            <div class="platillos">
+                <h1>Lasaña</h1>
+                <div class="cinco_estrellas"></div>
+            </div>
+            <p> Nuestra lasaña te transportará a las calles de Italia con cada cucharada. La salsa de carne hecha a
+                fuego lento, la pasta fresca y el queso derretido crean una sinfonía de sabores que te conquistarán.</p>
+            <div class="info-usuario">
+                <div class="usuario_chico"></div>
+                <p>mama_cocinera</p>
+            </div>
+            <div class="pastel_container">
+                <div class="arroz"></div>
+            </div>
+            <div class="platillos">
+                <h1>Arroz con leche</h1>
+                <div class="cinco_estrellas"></div>
+            </div>
+            <p> NNuestro arroz con leche te transportará a los sabores de tu niñez. Cada cucharada es un recuerdo de
+                momentos felices y llenos de cariño. Su textura cremosa y su sabor dulce te envolverán en una sensación
+                de confort.</p>
+        </div>
+    </div>
+</body>
+
+</html>

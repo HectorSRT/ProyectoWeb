@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fondo {
+            background-color: rgb(206, 146, 67);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(imagenes/fondo_final.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .guardados {
+            background-color: rgb(207, 201, 178);
+            height: 800px;
+            width: 800px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .arriba {
+            display: flex;
+            width: 100%;
+        }
+
+        .user {
+            background-image: url(imagenes/user.png);
+            height: 100px;
+            width: 100px;
+            background-position: top;
+            background-size: cover;
+            margin-right: 20px;
+        }
+
+        .user_info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 15px;
+        }
+
+        h2 {
+            margin-top: -15px;
+        }
+
+        .lasana,
+        .arroz {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 200px;
+            width: 33%;
+            margin: 0;
+            border-radius: 10px;
+            z-index: 1;
+        }
+
+        .lasana {
+            background-image: url(imagenes/lasana.jpg);
+        }
+
+        .arroz {
+            background-image: url(imagenes/arroz_con_leche.jpg);
+        }
+
+        .comidas {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="guardados">
+            <div class="arriba">
+                <div class="user"></div>
+                <div class="user_info">
+                    <h1>chica_gamer123</h1>
+                    <h2>Publicaciones Guardadas</h2>
+                </div>
+            </div>
+            <div class="comidas">
+                <div class="lasana"></div>
+                <div class="arroz"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
